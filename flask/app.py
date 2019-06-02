@@ -37,6 +37,11 @@ def easy():
 
     elif param['type'] == 2:
         pattern = param['input']
+        # unsup_pattern_A = re.compile(r'\*\?')
+        # unsup_pattern_B = re.compile(r'\+\?')
+        #
+        # if re.match(pattern, unsup_pattern_A) or re.match(pattern, unsup_pattern_B):
+        #     pattern = pattern.replace('*?','{0,}').replace('+?','+')
 
         try:
 
