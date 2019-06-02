@@ -2,7 +2,7 @@ import alchemy as db
 
 def insert(p, r):
     try:
-        pattern = '^' + p['input'].replace('*', '[a-zA-Z]*?') + '$'
+        pattern = '^' + p['input'].replace('*', '[a-zA-Z]{0,}') + '$'
         print(pattern)
         obj = db.db_session.query(db.Words).filter(db.Words.word.op('regexp')(pattern)).all()
 
