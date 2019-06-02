@@ -10,5 +10,5 @@
 服务器:项目内为localhost
 
 ###单词查询模式:
-a、Easy-Search:支持如twist,*ist,tw*t,tw*类型模糊查询
-b、Re-Search:支持输入正则进行查询
+a、Easy-Search:支持如'twist','*ist','tw*t','tw*'类型模糊查询
+b、Re-Search:支持输入正则进行查询,但不支持非贪婪匹配
