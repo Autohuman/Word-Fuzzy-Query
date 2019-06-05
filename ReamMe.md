@@ -1,4 +1,7 @@
 #Word-Search-System  
+
+Designed by: weekbin & Autohuman  
+
 ##项目说明：  
 1、词汇仅红宝石必考、基础部分，位于Vocabulary to Database/vocabulary.txt，将之存入数据库  
 2、对数据库内所有单词通过有道进行爬取中文翻译，存入数据库  
